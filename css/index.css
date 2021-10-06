@@ -1,0 +1,23 @@
+body {
+	background-color: black;
+}
+
+@font-face {
+	font-family: "loveletter";
+	src: url("../fonts/loveletter.ttf");
+}
+
+h1 {
+	color:antiquewhite;
+	text-align: center;
+	font-family: "loveletter";
+	font-size: 5vw;
+	margin: 0;
+}
+
+P {
+	color: antiquewhite;
+	text-align: center;
+	font-family: "loveletter";
+	font-size: 1vw;
+}
