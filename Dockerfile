@@ -1,6 +1,6 @@
 FROM alpine
 
-WOKRDIR /usr/src/accela.ml
+WORKDIR /usr/src/accela.ml
 
 RUN apk update \
 	&& apk add lighthttpd \
