@@ -7,12 +7,12 @@ body {
 	src: url("../fonts/loveletter.ttf");
 }
 
-h1 {
+.header {
 	color:antiquewhite;
-	text-align: center;
 	font-family: "loveletter";
 	font-size: 5vw;
-	margin: 0;
+	display: flex;
+	justify-content: center;
 }
 
 P {
@@ -20,4 +20,14 @@ P {
 	text-align: center;
 	font-family: "loveletter";
 	font-size: 1vw;
+}
+
+div, iframe {
+    margin: 0 auto;
+}
+
+iframe {
+    display: block;
+	padding: 6px;
+    border: 2px antiquewhite solid;
 }
