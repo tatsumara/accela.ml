@@ -3,9 +3,9 @@ FROM alpine
 WORKDIR /usr/src/accela.ml
 
 RUN apk update \
-	&& apk add lighthttpd \
+	&& apk add lighttpd \
 	&& rm -rf /var/cache/apk/*
 
 COPY . ./
 
-CMD ["lighthttpd", "-D", "-f", "/usr/src/accela.ml/lighthttpd.conf"]
+CMD ["lighttpd", "-D", "-f", "/usr/src/accela.ml/lighttpd.conf"]
