@@ -14,7 +14,6 @@ body {
 	overflow: hidden;
 	padding: 20px 10px;
 }
-
 .header a {
 	color: inherit;
 	float: right;
@@ -24,11 +23,9 @@ body {
 	line-height: 25px;
 	border-radius: 4px;
 }
-
 .header a:hover {
 	color:burlywood;
 }
-
 .header-title {
 	float: left;
 	font-size: 80px;
