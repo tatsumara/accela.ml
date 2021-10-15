@@ -10,16 +10,35 @@ body {
 .header {
 	color:antiquewhite;
 	font-family: "loveletter";
-	font-size: 5vw;
-	display: flex;
-	justify-content: center;
+	font-size: 40px;
+	overflow: hidden;
+	padding: 20px 10px;
 }
 
-P {
+.header a {
+	color: inherit;
+	float: right;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+.header a:hover {
+	color:burlywood;
+}
+
+.header-title {
+	float: left;
+	font-size: 100px;
+}
+
+p {
 	color: antiquewhite;
 	text-align: center;
 	font-family: "loveletter";
-	font-size: 1vw;
+	font-size: 20px;
 }
 
 div, iframe {
@@ -28,6 +47,23 @@ div, iframe {
 
 iframe {
     display: block;
-	padding: 6px;
     border: 2px antiquewhite solid;
+	width: 50vw;
+	height: 28.125vw;
+}
+
+@media screen and (max-width: 250px) {
+	.header a {
+	  float: none;
+	  display: block;
+	  text-align: center;
+	}
+	.header-title {
+	  float: none;
+	  text-align: center;
+	}
+	iframe {
+		width: 100vw; 
+		height: 56.25vw;
+	}
 }
