@@ -1,6 +1,6 @@
 const header = document.createElement('div');
 header.id = 'header';
-header.innerHTML = `
+header.innerHTML = /*html*/ `
 	<div id="header-title">
 		<a href="./">Accela</a>
 	</div>
