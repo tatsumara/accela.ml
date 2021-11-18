@@ -56,7 +56,7 @@ iframe {
 	height: 28.125vw;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 870px) {
 	#header a {
 	  float: none;
 	  display: block;
