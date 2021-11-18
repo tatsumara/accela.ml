@@ -8,6 +8,7 @@ body {
 }
 
 #header {
+	background-color: #0E0E10;
 	color:antiquewhite;
 	font-family: "loveletter";
 	font-size: 35px;
@@ -49,7 +50,7 @@ iframe {
 	height: 28.125vw;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
 	#header a {
 	  float: none;
 	  display: block;
