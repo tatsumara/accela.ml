@@ -1,5 +1,8 @@
 body {
 	background-color: black;
+	max-width: 960px;
+	padding: 10px 10px;
+	margin: auto
 }
 
 @font-face {
@@ -9,6 +12,8 @@ body {
 
 #header {
 	background-color: #0E0E10;
+	box-shadow: 0px 0px 5px antiquewhite;
+	border-radius: 10px;
 	color:antiquewhite;
 	font-family: "loveletter";
 	font-size: 35px;
