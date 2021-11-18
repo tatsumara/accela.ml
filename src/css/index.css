@@ -1,5 +1,6 @@
 body {
 	background-color: black;
+	background-image: url("../img/bg-red.png");
 	max-width: 960px;
 	padding: 10px 10px;
 	margin: auto
